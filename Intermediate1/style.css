@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 
 body {
@@ -59,7 +59,14 @@ body {
     display: flex;
     justify-content: space-between;
     width: 95px;
+    text-align: right;
 }
+
+
+/* .maincategory2 p {
+    width: 80px;
+    border: 1px solid black;
+} */
 
 .indent {
     margin-left: 20px;
@@ -77,4 +84,30 @@ hr {
     background-color: black;
     border: none;
     height: 1px;
+}
+
+.tablecategory {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+}
+
+.placeholder {
+    visibility: hidden;
+}
+
+.table2 {
+    display: flex;
+    justify-content: center;
+}
+
+.table2 p {
+    margin: 0 10px;
 }
