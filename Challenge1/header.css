@@ -1,6 +1,40 @@
 @media screen {
-    .imagecontainer {
+    .mainheader {
+        display: flex;
         width: 100%;
+        height: 100vh;
+        background-color: #f37b22;
+    }
+    .imagecontainer {
+        width: 30%;
+    }
+    .mainimage {
+        width: 100%;
+        height: 100%;
+    }
+    .headerbox1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(32, 32, 32);
+        opacity: 0.5;
+        color: white;
+        padding: 20px;
+        text-align: center;
         height: 50vh;
+        margin-top: 70px;
+    }
+    .headerbox1 h1 {
+        text-transform: uppercase;
+    }
+    .headerbox2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        height: 50vh;
+        padding: 20px;
+        margin-top: 70px;
     }
 }
