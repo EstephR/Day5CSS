@@ -23,6 +23,10 @@
         text-align: center;
         height: 50vh;
         margin-top: 70px;
+        opacity: 0;
+    }
+    .headerbox1:hover {
+        opacity: 0.5;
     }
     .headerbox1 h1 {
         text-transform: uppercase;
@@ -36,5 +40,13 @@
         height: 50vh;
         padding: 20px;
         margin-top: 70px;
+        opacity: 0;
     }
+    .headerbox2:hover {
+        opacity: 1;
+    }
+}
+
+.headerbox2-1 {
+    padding: 10px;
 }
