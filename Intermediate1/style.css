@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+}
+
 .headline {
     display: flex;
+    font-weight: bold;
+    height: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.headline>div {
+    display: flex;
+    margin: 20px;
 }
